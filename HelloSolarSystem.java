@@ -1,10 +1,10 @@
 public class HelloSolarSystem{
 
-	static String[] planets = {"Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto (a dwarf planet)","Moon (not a planet)","Sun (not a planet)"};
+	static String[] astronomicalBodies = {"Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto (a dwarf planet)","Moon (a satellite)","Sun (a star)"};
 
 	public static void  main(String args[]){
-		for (int i=0; i<planets.length; i++){
-			System.out.println(i+1+" "+planets[i]);
+		for (int i=0; i< astronomicalBodies.length; i++){
+			System.out.println(i+1+" "+ astronomicalBodies[i]);
 		}
 	}
 }
