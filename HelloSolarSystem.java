@@ -1,6 +1,6 @@
 public class HelloSolarSystem{
 
-	static String[] astronomicalBodies = {"Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto (a dwarf planet)","Moon (a satellite)","Sun (a star)"};
+	static String[] astronomicalBodies = {"Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto (a dwarf planet)","Moon (a satellite)","Sun (a star)","Titan (satellite)"};
 
 	public static void  main(String args[]){
 		for (int i=0; i< astronomicalBodies.length; i++){
