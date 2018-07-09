@@ -1,6 +1,6 @@
 public class HelloSolarSystem{
 
-	static String[] planets = {"Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto (a dwarf planet)"};
+	static String[] planets = {"Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune","Pluto (a dwarf planet)","Moon (not a planet)"};
 
 	public static void  main(String args[]){
 		for (int i=0; i<planets.length; i++){
